@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Contact Kelvin's Tech Blog with questions, corrections, or topic suggestions."
+    />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <meta name="author" content="ojei kelvin" />
+    <title>Contact | Kelvin's Tech Blog</title>
+  </head>
+  <body>
+    <header>
+      <h1>Contact Kelvin's Tech Blog</h1>
+      <p>Questions, feedback, and topic suggestions are welcome.</p>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Topics &amp; Resources</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="categories.html">Categories</a></li>
+          <li><a href="media.html" aria-current="page">Multimedia</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+          <li><a href="pages/application.html">Mentorship Application</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section aria-labelledby="contact-details-heading">
+        <h2 id="contact-details-heading">Contact details</h2>
+        <address>
+          Blog editor: Kelvin Ojei<br />
+          Email: <a href="mailto:ojeikelvin@yahoo.com">ojeikelvin@yahoo.com</a
+          ><br />
+          Location: Asaba, Delta State, Nigeria
+        </address>
+      </section>
+
+      <section aria-labelledby="message-heading">
+        <h2 id="message-heading">Send a message</h2>
+        <p>
+          Complete the fields below. This demonstration form does not send or
+          store messages because it has no backend service.
+        </p>
+        <form action="contact.html" method="get">
+          <fieldset>
+            <legend>Your details</legend>
+
+            <div>
+              <label for="name">Full name (required)</label><br />
+              <input
+                type="text"
+                id="name"
+                name="name"
+                autocomplete="name"
+                minlength="2"
+                maxlength="80"
+                required
+              />
+            </div>
+
+            <div>
+              <label for="email">Email address (required)</label><br />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                autocomplete="email"
+                required
+              />
+            </div>
+
+            <div>
+              <label for="phone">Phone number (optional)</label><br />
+              <input type="tel" id="phone" name="phone" autocomplete="tel" />
+            </div>
+          </fieldset>
+
+          <fieldset>
+            <legend>Your message</legend>
+
+            <div>
+              <label for="subject">Message topic (required)</label><br />
+              <select id="subject" name="subject" required>
+                <option value="">Choose a topic</option>
+                <option value="question">Question</option>
+                <option value="correction">Correction</option>
+                <option value="suggestion">Topic suggestion</option>
+                <option value="collaboration">Collaboration</option>
+              </select>
+            </div>
+
+            <div>
+              <label for="message">Message (required)</label><br />
+              <textarea
+                id="message"
+                name="message"
+                rows="6"
+                cols="40"
+                minlength="10"
+                maxlength="1000"
+                required
+              ></textarea>
+            </div>
+
+            <div>
+              <input
+                type="checkbox"
+                id="reply-permission"
+                name="reply-permission"
+                value="yes"
+              />
+              <label for="reply-permission"
+                >You may contact me about this message.</label
+              >
+            </div>
+          </fieldset>
+
+          <button type="submit">Submit message</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2026 Kelvin's Tech Blog.</p>
+      <p><a href="index.html">Return to home</a></p>
+      <div>
+        <img
+          src="./images/icons/facebook-f-brands-solid-full.svg"
+          alt="the logo of facebook"
+          width="70"
+        />
+        <img
+          src="./images/icons/instagram-brands-solid-full.svg"
+          alt="the logo of instagram"
+          width="70"
+        />
+        <img
+          src="./images/icons/twitter-brands-solid-full.svg"
+          alt="the logo of twitter"
+          width="70"
+        />
+        <img
+          src="./images/icons/whatsapp-brands-solid-full.svg"
+          alt="the logo of whatsapp"
+          width="70"
+        />
+      </div>
+    </footer>
+  </body>
+</html>
