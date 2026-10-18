@@ -28,6 +28,23 @@ Kelvin's Tech Blog is a beginner-friendly technology blog built with semantic HT
 - Forms using labels, text, email, telephone, date, URL, radio, checkbox, select, textarea, fieldset, legend, required fields, and native constraints.
 - Native submit buttons and keyboard-usable controls.
 
+## What I learned
+
+- How to organise a multi-page website with HTML alone.
+- How semantic elements help explain a page's structure.
+- How to connect pages using relative paths and fragment identifiers.
+- How to label form controls and group related choices.
+- How to use native browser validation and accessible table headers.
+- Why HTML validation is important before submitting a project.
+
+## Challenges encountered
+
+- Keeping navigation consistent across all pages.
+- Correctly writing relative paths from `pages/application.html` to files in the parent folder.
+- Choosing useful alternative text for images.
+- Grouping related form controls while ensuring every data-entry control has a label.
+- Remembering that a form action does not create a working backend.
+
 ## Resources and media licences/attributions
 
 - youtube.come, the Audios and Video
@@ -36,3 +53,12 @@ Kelvin's Tech Blog is a beginner-friendly technology blog built with semantic HT
 - `images/tech-workspace.svg` is an original simple illustration created for this educational project; no third-party image is embedded.
 - No third-party audio or video is included. The `media/` folder is reserved for future licensed media.
 - Review all external resources and any future media licences before public publication.
+
+## Validation status
+
+Run every HTML file through the Nu HTML Checker before final submission:
+
+1. Open https://validator.w3.org/nu/
+2. Choose the file upload option and validate each HTML file.
+3. Fix reported errors and warnings that affect correctness or accessibility.
+4. Save a screenshot of the successful validation result for each page.
